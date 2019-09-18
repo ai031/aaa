@@ -1,0 +1,44 @@
+@charset "utf-8";
+body {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    font: 12px/1.231 Arial, Helvetica, "Microsoft Yahei", sans-serif;
+    color: #333
+}
+
+a, b, body, canvas, dd, div, dl, dt, em, form, h1, h2, h3, h4, h5, h6, html, img, label, li, ol, p, q, span, ul, table, th, td {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, "Microsoft Yahei", sans-serif;
+    border: 0;
+    outline: 0;
+    font-size-adjust: none;
+    -webkit-text-size-adjust: 100% !important;
+    -webkit-touch-callout: none;
+    -webkit-appearance: none;
+    -webkit-user-select: none
+}
+
+* {
+    -webkit-tap-highlight-color: transparent
+}
+
+input {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, "Microsoft Yahei", sans-serif;
+    border: 0;
+    outline: 0;
+    font-size-adjust: none;
+    -webkit-text-size-adjust: 100% !important;
+    -webkit-touch-callout: none;
+}
+
+input[type="button"], input[type="submit"], input[type="reset"] {
+    -webkit-appearance: none
+}
+
+ul, li {
+    list-style: none
+}

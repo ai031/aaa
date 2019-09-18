@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="default"/>
+    <title>搜索预约</title>
+    <link rel="stylesheet" href="../static/css/common.css">
+</head>
+<body>
+<div class="personnel">
+    <ul>
+        <li>
+            <div class="w100 float_l"><img src="../static/images/temp2.png"/><span class="f12">李美丽</span></div>
+            <div class="f13 float_l">
+                <p>单位：临海信访科</p>
+                <p >职务：主任</p>
+                <p>地点：临海市某某街道12号</p>
+            </div>
+        </li>
+    </ul>
+</div>
+<div class="pb">
+    <p>排班信息</p>
+</div>
+<div class="personnel">
+    <ul>
+        <li>
+            <div class="f13 float_l">
+                <p>2019-08-13  周二</p>
+                <p class="txt8">地点：临海市某某街道12号</p>
+            </div>
+            <div class="w120 float_r">
+                <a href="details2.html" class="applybtn">申请预约</a>
+                <p class="f12">剩余次数：10</p>
+            </div>
+        </li>
+        <li>
+            <div class="f13 float_l">
+                <p>2019-08-13  周二</p>
+                <p class="txt8">地点：临海市某某街道12号</p>
+            </div>
+            <div class="w120 float_r">
+                <a href="#" class="no-applybtn">申请预约</a>
+                <p class="no-f12">剩余次数：0</p>
+            </div>
+        </li>
+    </ul>
+</div>
+<style>
+    body{background: #F0EFF4;}
+    .personnel ul {
+        overflow: hidden;
+        background: #fff;
+        border-bottom: 1px solid #dfdfdf;
+
+    }
+
+    .personnel li {
+        padding: 15px 15px 10px 0;
+        overflow: hidden;
+        background: url("../static/images/Line.png") repeat-x;
+
+    }
+
+    .personnel .w100 {
+        width: 80px;
+        overflow: hidden;
+        display: block;
+        border-right: 1px solid #dfdfdf;
+
+    }
+
+    .personnel .w100 img {
+        border-radius: 100px;
+        width: 56%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .personnel .f12 {
+        font-size: 12px;
+        display: block;
+        line-height: 26px;
+        text-align: center;
+    }
+
+    .personnel .no-f12 {
+        font-size: 12px;
+        display: block;
+        line-height: 26px;
+        text-align: center;
+        color: #888;
+    }
+
+    .personnel .f13 {
+        padding-left: 15px;
+        display: block;
+
+    }
+
+    .personnel a {
+        text-decoration: none
+    }
+
+    .personnel p {
+        line-height: 22px;
+        font-size: 13px;
+    }
+
+    .personnel .w120 {
+        color: #4A90E2;
+        text-align: center;
+    }
+
+    .applybtn {
+        display: block;
+        width: 80px;
+        text-align: center;
+        background: #38ADFF;
+        font-size: 13px;
+        padding: 4px 0;
+        color: #fff;
+        border-radius: 4px
+    }
+
+    .no-applybtn {
+        display: block;
+        width: 80px;
+        text-align: center;
+        background: #DBDBDB;
+        font-size: 13px;
+        padding: 4px 0;
+        color: #fff;
+        border-radius: 4px
+    }
+    .txt8{color: #888; font-size: 12px}
+    .float_l {
+        float: left
+    }
+
+    .float_r {
+        float: right
+    }
+    .pb p {
+        padding-left: 15px;
+        line-height: 44px;
+        font-size: 13px;
+        height: 40px;
+    }
+</style>
+</body>
+</html>

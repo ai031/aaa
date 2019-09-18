@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="default"/>
+    <title>排班预约</title>
+    <link rel="stylesheet" href="../static/css/common.css">
+</head>
+<body>
+<div class="date">
+    <ul>
+        <li class="curr"><span class="t">8.14</span>周一</li>
+        <li class="nocurr"><span class="t">8.15</span>周二</li>
+        <li class="nocurr"><span class="t">8.16</span>周三</li>
+        <li class="nocurr"><span class="t">8.17</span>周四</li>
+        <li class="nocurr"><span class="t">8.18</span>周五</li>
+        <li class="nocurr"><span class="t">8.19</span>周六</li>
+        <li class="nocurr"><span class="t">8.20</span>周七</li>
+    </ul>
+</div>
+<div class="letter">
+    <div class="kong"><img src="../static/images/kongimg.png"/><span class="f16">当天暂无排班信息</span></div>
+</div>
+<div class="personnel">
+    <ul>
+        <li>
+            <div class="w100 float_l"><img src="../static/images/temp2.png"/><span class="f12">李美丽</span></div>
+            <div class="f13 float_l">
+                <p>单位：临海信访科</p>
+                <p>职务：主任</p>
+                <p>地点：临海市某某街道12号</p>
+            </div>
+            <div class="w120 float_r">
+                <a href="details2.html" class="applybtn">申请预约</a>
+                <p class="f12">剩余次数：10</p>
+            </div>
+        </li>
+        <li>
+            <div class="w100 float_l"><img src="../static/images/temp2.png"/><span class="f12">李美丽</span></div>
+            <div class="f13 float_l">
+                <p>单位：临海信访科</p>
+                <p>职务：主任</p>
+                <p>地点：临海市某某街道12号</p>
+            </div>
+            <div class="w120 float_r">
+                <a href="#" class="applybtn">申请预约</a>
+                <p class="f12">剩余次数：10</p>
+            </div>
+        </li>
+        <li>
+            <div class="w100 float_l"><img src="../static/images/temp2.png"/><span class="f12">李美丽</span></div>
+            <div class="f13 float_l">
+                <p>单位：临海信访科</p>
+                <p>职务：主任</p>
+                <p>地点：临海市某某街道12号</p>
+            </div>
+            <div class="w120 float_r">
+                <a href="#" class="no-applybtn">申请预约</a>
+                <p class="no-f12">剩余次数：0</p>
+            </div>
+        </li>
+    </ul>
+</div>
+</body>
+<style>
+    body {
+        background: #F0EFF4;
+    }
+
+    .letter {
+        padding: 15px;
+    }
+
+    .date {
+        background: #fff;
+        padding: 15px 0 10px 10px;
+        border-bottom: 1px solid #dfdfdf;
+        margin-bottom: 10px;
+
+    }
+
+    .date .curr {
+        background: #38ADFF;
+        box-shadow: 0 3px 6px #97D5FF;
+        color: #fff;
+    }
+
+    .date .nocurr {
+        background: #F2F2F2;
+        box-shadow: 0 3px 6px #EBEBEB;
+        color: #888;
+    }
+
+    .date .nocurr .t {
+        background: #ECECEC;
+        display: block;
+        border-radius: 4px;
+        text-align: center;
+        line-height: 20px;
+        font-size: 12px;
+        color: #888;
+        width: 35px;
+        margin: 0 auto;
+
+    }
+
+    .date .curr .t {
+        background: #0C89E1;
+        display: block;
+        border-radius: 4px;
+        text-align: center;
+        line-height: 20px;
+        font-size: 12px;
+        color: #fff;
+        width: 35px;
+        margin: 0 auto;
+
+    }
+
+    .date ul {
+        text-align: center;
+        overflow: hidden;
+        height: 80px;
+    }
+
+    .date li {
+        float: left;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 32px;
+        width: 12.6%;
+        padding: 15px 0 5px 0;
+        border-radius: 4px;
+        margin-right: 6px;
+    }
+
+    .date li:last-child {
+        margin-right: 0
+    }
+
+    .kong {
+        text-align: center;
+    }
+
+    .kong img {
+        width: 50%;
+        margin: 80px 0 20px 0;
+    }
+
+    .kong .f16 {
+        font-weight: bold;
+        font-size: 16px;
+        display: block;
+        color: #888
+    }
+
+    .personnel {
+    }
+
+    .personnel ul {
+        overflow: hidden;
+        background: #fff;
+        border-bottom: 1px solid #dfdfdf;
+
+    }
+
+    .personnel li {
+        padding: 15px 15px 12px 0;
+        overflow: hidden;
+        background: url("../static/images/Line.png") repeat-x;
+
+    }
+
+    .personnel .w100 {
+        width: 80px;
+        overflow: hidden;
+        display: block;
+        border-left: 1px solid #dfdfdf;
+
+    }
+
+    .personnel .w100 img {
+        border-radius: 100px;
+        width: 56%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .personnel .f12 {
+        font-size: 12px;
+        display: block;
+        line-height: 26px;
+        text-align: center;
+    }
+
+    .personnel .no-f12 {
+        font-size: 12px;
+        display: block;
+        line-height: 26px;
+        text-align: center;
+        color: #888;
+    }
+
+    .personnel .f13 {
+        padding-left: 15px;
+        display: block;
+
+    }
+
+    .personnel a {
+        text-decoration: none
+    }
+
+    .personnel p {
+        line-height: 22px;
+        font-size: 13px;
+    }
+
+    .personnel .w120 {
+        color: #4A90E2;
+        text-align: center;
+        margin: 15px 0 0 0
+    }
+
+    .applybtn {
+        display: block;
+        width: 80px;
+        text-align: center;
+        background: #38ADFF;
+        font-size: 13px;
+        padding: 4px 0;
+        color: #fff;
+        border-radius: 4px
+    }
+
+    .no-applybtn {
+        display: block;
+        width: 80px;
+        text-align: center;
+        background: #DBDBDB;
+        font-size: 13px;
+        padding: 4px 0;
+        color: #fff;
+        border-radius: 4px
+    }
+
+    .float_l {
+        float: left
+    }
+
+    .float_r {
+        float: right
+    }
+</style>
+
+</html>
